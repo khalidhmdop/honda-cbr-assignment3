@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.bg-dstblue {
+  background-color: #264653;
+}
+.btn-sftred {
+  background-color: #e76f51;
+  color: #fff;
+  border: 1px solid #e76f51;
+}
+.btn-sftred:hover {
+  background-color: #fff;
+  color: #e76f51;
+}
+.btn-outline-sftred{
+    background-color: #fff;
+  color:  #e76f51;
+  border: 1px solid;
+}
+.btn-outline-sftred:hover{
+    background-color:  #e76f51;
+  color: #fff ;
+  
+}
+.text-sftred {
+  color: #e76f51;
+}
+.sub-hedding::after {
+  content: " ";
+  height: 3px;
+  width: 60px;
+  position: relative;
+  background-color: #e76f51;
+  left: 47%;
+  z-index: 10;
+  display: block;
+}
+
+
+
+
+.ft-bike-gray{
+    filter: grayscale(1);
+}
+.client-img{
+    height: 149px;
+    width: 149px;
+}
+.client-rating>i{
+    color: #e76f51;
+}
+.faq-img{
+    max-height: 400px;
+}
+
+footer{
+    min-height: 250px;
+}
